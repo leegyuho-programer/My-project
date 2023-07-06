@@ -80,5 +80,6 @@ function reset(){
     playButton.disabled = false;
     chanceArea.textContent=`남은 목숨: ${chances}개`;
     history = [];
+    resultAreaImg.src ="https://search.pstatic.net/common/?src=http%3A%2F%2Fcafefiles.naver.net%2FMjAxOTA0MDJfMjQw%2FMDAxNTU0MTc2ODc3NDQ2.HeXje0UTJWu1IVrGX-9WbTQ8GlgLTvYoUYIWPoChG0Qg.5BdFWlRK8vPEejbOnQI2_bA_GwqzWtwPIn_K8xEZYvMg.GIF.rklskhj2%2FexternalFile.gif&type=sc960_832_gif";
 }
 pickRandomNum();
