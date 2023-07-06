@@ -1,0 +1,82 @@
+body {
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "East Sea, sans-serif", cursive;
+    background-image: url(./image/finger-punch.jpg);
+  }
+
+span{
+    color: red;
+}
+
+.title{
+    font-size: 5vw;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+.sub-title{
+    font-size: 4vw;
+    font-weight: bold;
+}
+
+h2{
+    font-size: 1.5em;
+}
+
+h2 > span{
+    color: red;
+}
+
+.container{
+    border: 10px solid black;
+    border-radius: 20px;
+    text-align: center;
+    background-color: rgba(247, 243, 242, 0.7);
+}
+
+.main-text{
+    text-align: center;
+    margin: 20px;
+}
+
+#first-img{
+    height: 12em;
+    margin: 20px;
+}
+
+.under{
+    margin: 20px;
+    flex-wrap: wrap;
+}
+
+#user-input{
+    height: 80px;
+    font-size: 2.2vw;
+    margin-right: 20px;
+    text-align: center;
+}
+
+#play-button{
+    height: 80px;
+    width: 100px;
+    margin-top: 5px;
+    border-radius: 50px;
+    font-size: 20pt;
+    font-weight: bold;
+}
+
+#reset-button{
+    height: 60px;
+    width: 150px;
+    font-size: 2em;
+    font-weight: bold;
+    margin: 30px;
+    border-radius: 20px;
+}
